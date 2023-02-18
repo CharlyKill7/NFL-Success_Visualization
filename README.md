@@ -1,14 +1,15 @@
 # W5 Project - NFL Success Visualization
 
-![portada](https://github.com/CharlyKill7/NFL-Penalties_ETL/blob/main/images/portada.jpg)
+![portada](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/portada.png)
 
 ## Índice
 
 1. [Descripción](#descripción)
-2. [Extracción](#extracción)
-3. [Transformación](#transformación)
-4. [Carga](#carga)
-5. [BONUS: Consultas y conclusión](#consultas)
+2. [Wins by Team](#wins_by_team)
+3. [Passing vs Rushing](#transformación)
+4. [QB Dependency](#carga)
+5. [Special Teams](#consultas)
+5. [Special Teams](#consultas)
 
 
 <a name="descripción"/>
