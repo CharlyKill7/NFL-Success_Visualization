@@ -139,12 +139,6 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
 ![fg_teams](https://github.com/CharlyKill7/NFL-Penalties_ETL/blob/main/images/profootballreference.png)
-
-
-
-
-
-<p><strong> Como conclusión, y aunque la muestra es todavía pequeña, parece que la hipótesis se confirma: los equipos perdedores son más beneficiados por las decisiones arbitrales en los minutos finales de partido.</strong>
 	
 
 <br>
