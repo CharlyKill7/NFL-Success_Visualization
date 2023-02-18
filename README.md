@@ -109,6 +109,7 @@ El proceso de transformación por cada tabla fue el siguiente:
 
 ![worst_pass_rush](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/worst_pass_rush.png)
 
+</details>
 
 <a name="special"/>
 
