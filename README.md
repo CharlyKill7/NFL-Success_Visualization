@@ -140,7 +140,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
 [fg_teams](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg_teams.png)
-	
+
+</details>	
 
 <br>
 	
