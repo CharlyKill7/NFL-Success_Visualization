@@ -6,10 +6,11 @@
 
 1. [Descripción](#descripción)
 2. [Wins by Team](#wins_by_team)
-3. [Passing vs Rushing](#transformación)
-4. [QB Dependency](#carga)
-5. [Special Teams](#consultas)
-5. [Special Teams](#consultas)
+3. [Passing vs Rushing](#pass_rush)
+4. [QB Dependency](#qb)
+5. [Special Teams](#special)
+6. [Defense](#defense)
+7. [Conclusiones](#conclusiones)
 
 
 <a name="descripción"/>
@@ -29,7 +30,7 @@ Nuestro objetivo es encontrar tres fuentes de datos distintas sobre las señaliz
  
  <a name="wins_by_team"/>
  
-## Extracción
+## Wins by Team
 
 En primer lugar, hemos realizado un ejercicio analítico de numerosas páginas web, incluyendo Kaggle o Google Dataset Search. Al no encontrar ningún dataset que se ajustara al objetivo, ampliamos la búsqueda a cualquier url que pudiera proporcionar la información requerida. Durante este proceso, encontramos las siguientes tablas:
 
@@ -69,9 +70,9 @@ Finalmente decidimos comprobar la incidencia del horario en las decisiones arbit
 
 
 
- <a name="transformación"/>
+ <a name="pass_rush"/>
  
-## Transformación
+## Passing vs Rushing
 
 El proceso de transformación por cada tabla fue el siguiente:
 
@@ -95,9 +96,9 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 <img src="https://github.com/CharlyKill7/NFL-Penalties_ETL/blob/main/images/df3.png" />
 
-<a name="carga"/>
+<a name="qb"/>
 
-## Carga
+## QB Ratings
 
 Una vez finalizada la transformación de los datos, obtuvimos un único DataFrame que exportar a MySQL. Para ello, creamos la base de datos "nflpenalties" y diseñamos su EERD correspondiente. Tras un hacer Forward Engineer creamos la tabla "penalties_week_1_2022", en un principio vacía. Después, mediante SQLAlchemy realizamos la exportación y rellenamos dicha tabla, finalizando así el proceso de carga. 
 
@@ -108,9 +109,9 @@ Una vez finalizada la transformación de los datos, obtuvimos un único DataFram
 </details>
 
 
-<a name="consultas"/>
+<a name="special"/>
 
-## 📊 BONUS: Consultas y conclusión
+## Special Teams
 
 La hipótesis principal que me ha llevado a elegir esta temática para mi ETL Project es la siguiente:
 
@@ -183,3 +184,12 @@ En esta tabla final usamos la misma query que en la anterior, con la salvedad de
 	
 
 <br>
+	
+<a name="defense"/>
+
+## Defense
+	
+	
+<a name="conclusion"/>
+
+## SConclusión
