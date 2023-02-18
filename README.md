@@ -50,7 +50,7 @@ Finalmente decidimos comprobar la incidencia del horario en las decisiones arbit
 
 El proceso de transformación por cada tabla fue el siguiente:
 
-<img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_vs_rush.png" width="500" height="800" />
+<img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_vs_rush.png" />
 
 <details>
 <summary>Score & Passing</summary>
@@ -85,7 +85,7 @@ El proceso de transformación por cada tabla fue el siguiente:
 
 El proceso de transformación por cada tabla fue el siguiente:
 
-<img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_ratings.png" width="500" height="800" />
+<img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_ratings.png" />
 
 <details>
 <summary>Average QB Rating by Team</summary>
@@ -116,7 +116,7 @@ El proceso de transformación por cada tabla fue el siguiente:
 	
 El proceso de transformación por cada tabla fue el siguiente:
 
-<img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/spe_teams.png" width="500" height="800" />
+<img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/spe_teams.png" />
 
 <details>
 <summary>Field Goald %</summary>
@@ -130,7 +130,7 @@ El proceso de transformación por cada tabla fue el siguiente:
 <summary>Punt Attempts</summary>
 <br>
 
- ![punt](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/punt.png)
+ [punt](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/punt.png)
 
 </details>
 
@@ -138,7 +138,7 @@ El proceso de transformación por cada tabla fue el siguiente:
 <summary>Field Goals by Team</summary>
 <br>
 
-![fg_teams](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg_teams.png)
+[fg_teams](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg_teams.png)
 	
 
 <br>
@@ -183,12 +183,12 @@ El proceso de transformación por cada tabla fue el siguiente:
 
 </details>
 
-	
-	
+		
 <a name="conclusion"/>
 
 ## Conclusiones
 	
 <p><strong> Los árbitros tienden a buscar un final igualado, y por tanto benefician al equipo que va por debajo en el marcador.</strong>
 	
+<br>
 <br>
