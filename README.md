@@ -27,7 +27,7 @@ En este proyecto habremos de efectuar un proceso completo de ETL, las siglas en 
 Nuestro objetivo es encontrar tres fuentes de datos distintas sobre las señalizaciones arbitrales en la NFL, de tal modo que podamos generar un DataFrame rico y completo a través del cual podamos sacar conclusiones al respecto. En este sentido, trabajaremos en la transformación del dato crudo para su adaptación al resto de las fuentes, con el fin de establecer una base de datos SQL con los resultados, pudiendo lanzar queries que nos ayuden a confirmar o refutar las hipótesis que planteemos.
 
  
- <a name="extracción"/>
+ <a name="wins_by_team"/>
  
 ## Extracción
 
