@@ -238,6 +238,9 @@ Aunque podría haber concluido en la sección previa, voy a dibujar un balance d
 <p>Como conclusión: <strong>La receta de la victoria tiene varios ingredientes, pero los principales son el juego de pase y, sobre todo, una gran Defensa.</strong>
 	
 <br>
+<br>
+<br>
+<br>
 										<em>"Offense sells tickets, but Defense wins championships."</em>
 	
 <br>
