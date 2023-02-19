@@ -17,15 +17,19 @@
 
 ## Descripción del proyecto
 
-En este proyecto habremos de efectuar un proceso completo de ETL, las siglas en inglés de Extract, Transform y Load. Los datos a extraer serán de nuestra elección, pero habrá que cumplir ciertos requerimientos. En este caso, vamos a extraer datos y hacer un pequeño análisis acerca de las decisiones arbitrales en la NFL.
+En este proyecto habremos de visualizar los datos cargados tras efectuar una ETL, mediante el uso de herramientas como PowerBI, Tableau o ciertas librerías de Python como Matplotlib o Seaborn, con el fin mejorar el análisis de los mismos. Para este proyecto concreto, nosotros utilizaremos PowerBI, lo que podrá permitir, a cualquiera que no conozca los datos, entenderlos a golpe de vista.
 
 ### Restricciones:
-- Obtener la información de tres fuentes distintas (urls).
-- Dos métodos distintos de extracción (csv, excel, api, rss, web scrapping...).
+- Utilizar una de las tres herramientas mencionadas.
+
+### Dataset:
+- Utilizaremos un csv con todas las estadísticas de juego de los equipos de la NFL entre 2010 y 2016.
 
 ### Objetivo:
  
-Nuestro objetivo es encontrar tres fuentes de datos distintas sobre las señalizaciones arbitrales en la NFL, de tal modo que podamos generar un DataFrame rico y completo a través del cual podamos sacar conclusiones al respecto. En este sentido, trabajaremos en la transformación del dato crudo para su adaptación al resto de las fuentes, con el fin de establecer una base de datos SQL con los resultados, pudiendo lanzar queries que nos ayuden a confirmar o refutar las hipótesis que planteemos.
+Nuestro objetivo será presentar una serie de figuras gráficas que nos ayuden a dilucidar visualmente una cuestión planteada, que este caso será la siguiente:
+
+<p><strong> ¿Qué factores del juego son más determinantes para el resultado final?</strong>
 
  
  <a name="wins_by_team"/>
