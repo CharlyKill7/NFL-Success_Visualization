@@ -36,17 +36,17 @@ Nuestro objetivo será presentar una serie de figuras gráficas que nos ayuden a
  
 ## Wins by Team
 
-En primer lugar, hemos realizado un ejercicio analítico de numerosas páginas web, incluyendo Kaggle o Google Dataset Search. Al no encontrar ningún dataset que se ajustara al objetivo, ampliamos la búsqueda a cualquier url que pudiera proporcionar la información requerida. Durante este proceso, encontramos las siguientes tablas:
+En primer lugar, parece lógico preguntarnos: ¿qué es el éxito en la NFL? La respuesta, en cualquier deporte, sería la misma: la victoria. Por eso hemos decidido empezar adquiriendo una visión general de los equipos más existosos de la liga. Más adelante analizaremos las prácticas de cada conjunto en relación a su posición en esta primera gráfica.
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/wins.png" />
 
-Para la primera url, el proceso de extracción consistió en hacer web scrapping, utilizando la librería selenium. Tras conseguir tanto los nombres de columna como los datos, mediante la librería pandas generamos nuestro DataFrame principal. A partir de este, la idea fue extraer datos que pudieran complementar los ya existentes.
+Como podemos ver, para el periodo analizado hay un equipo que sinónimo de éxito: New England Patriots. Es posible que, de analizar únicamente sus estadísticas, no podamos precisar qué aspecto del juego se debe priorizar, puesto que en la mayoría resultaran punteros. Por eso, vamos a dividir en tres los 32 equipos del gráfico. 
 
-Como en la primera url conseguimos los datos de "Penalties" de la primera jornada, decidimos completar esa tabla con una columna que devolviera al ganador del partido en cuestión, de modo que pudieramos comprobar la incidencia arbitral en el éxito deportivo. Para ello descargamos un archivo boxscore en formato xlsx con el ganador y perdedor del partido en cuestión, entre otros datos. 
+- Los Top Teams, los diez primeros, de New England Patriots a Kansas City Chiefs.
+- Los Mid Teams, los doce intermedios, de Cincinnati Bengals a Los Angeles/San Diego Chargers.
+- Los Worst Teams, los diez últimos, de Miami Dolphins a Cleveland Browns.
 
-Finalmente decidimos comprobar la incidencia del horario en las decisiones arbitrales, pues existe una creencia popular que asocia los partidos de "prime time" con un número mayor de señalizaciones, ya que los colegiados aparecen más en pantalla cuando se televisa a todo el país. Para ello extraimos un archivo .csv con el "schedule" de la primera jornada.
-
-
+En este análisis vamos a utilizar al primer y al último grupo, buscando diferencias significativas en sus patrones de juego.
 
  <a name="pass_rush"/>
  
