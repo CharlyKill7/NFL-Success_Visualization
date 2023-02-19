@@ -17,19 +17,19 @@
 
 ## Descripción del proyecto
 
-En este proyecto habremos de visualizar los datos cargados tras efectuar una ETL, mediante el uso de herramientas como PowerBI, Tableau o ciertas librerías de Python como Matplotlib o Seaborn, con el fin mejorar el análisis de los mismos. Para este proyecto concreto, nosotros utilizaremos PowerBI, lo que podrá permitir, a cualquiera que no conozca los datos, entenderlos a golpe de vista.
+En este proyecto habremos de visualizar los datos cargados tras efectuar una ETL, mediante el uso de herramientas como PowerBI, Tableau o ciertas librerías de Python como Matplotlib o Seaborn, con el fin mejorar el análisis de los mismos. En este caso concreto utilizaremos PowerBI, lo que podrá permitir, a cualquiera que no conozca los datos, entenderlos a golpe de vista.
 
 ### Restricciones:
-- Utilizar una de las tres herramientas mencionadas.
+- Utilizar una de las tres herramientas de visualización mencionadas.
 
 ### Dataset:
-- Utilizaremos un csv con todas las estadísticas de juego de los equipos de la NFL entre 2010 y 2016.
+- Un .csv con todas las estadísticas de juego de los equipos de la NFL entre 2010 y 2016.
 
 ### Objetivo:
  
 Nuestro objetivo será presentar una serie de figuras gráficas que nos ayuden a dilucidar visualmente una cuestión planteada, que este caso será la siguiente:
 
-<p><strong> ¿Qué factores del juego son más determinantes para el resultado final?</strong>
+<p><strong> ¿Qué factores del juego son más determinantes para el resultado final de un partido en la NFL?</strong>
 
  
  <a name="wins_by_team"/>
@@ -52,9 +52,9 @@ En este análisis vamos a utilizar el primer grupo y el último, buscando difere
  
 ## Passing vs Rushing
 
-¿Pase o Carrera? Esa es la gran pregunta a la que se enfrenta un entrenador antes de cada jugada. En pocas palabras, pasar significa lanzar por aire, arriesgando más el balón con vistas a obtener un beneficio mucho mayor en cuanto a yardas. "Carrera", por el contrario, es una forma segura de avanzar desde atrás, aunque la recompensa suele ser menor. 
+¿Pase o Carrera? Esa es la gran pregunta a la que se enfrenta un entrenador antes de cada jugada. En pocas palabras, pasar significa lanzar por aire, arriesgando más el balón con vistas a obtener un beneficio mayor en cuanto a yardas. "Carrera", por el contrario, es una forma segura de avanzar desde atrás, aunque las yardas recorridas suelen ser muchas menos. 
 
-En el siguiente dashboard podemos apreciar, de manera general, lo que voy a ir destripando por subsecciones.
+En el siguiente dashboard podemos apreciar, de manera general, lo que voy a ir destripando por secciones.
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_vs_rush.png" />
 
@@ -94,7 +94,7 @@ En efecto, estas dos tablas resultan esclarecedoras. Teniendo en cuenta sólo lo
 
 ## QB Dependency
 
-El proceso de transformación por cada tabla fue el siguiente:
+De acuerdo, parece más efectivo pasar que correr. Sin embargo, la probabilidad de completar un pase no es la misma en todos los equipos. Sin explayarme, para que un pase tenga éxito, hay varias posiciones del juego involucradas. Un quarterback que lanza, un receptor que corre a atraparla y una serie de guardias que protegen al primero para darle tiempo y que complete el pase. Si existen flaquezas en esos aspectos, es posible que lanzar no sea la mejor de las opciones.
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_ratings.png" />
 
@@ -103,24 +103,30 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
  ![qb_rat](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/qb_rat.png)
+	
+En este diagrama de barras vemos el "passer rating" medio por equipo, en función de si ganaron o no. Como ya aventuramos, parece que los mejores equipos de la liga están arriba en este gráfico, aunque hay excepciones que vale la pena mencionar. Baltimore Ravens, sexto equipo más exitoso del periodo estudiado, están entre los últimos en "passer rating". Pero, si echamos un vistazo a las tablas de la sección anterior, vemos que lo compensan con un número mayor de carreras, donde son más efectivos.
+
+Otro caso interesante es el de Green Bay Packers, que supera con holgura a los mismísimos Patriots en este apartado. Esto se debe a la presencia de Aaron Rodgers, uno de los mejores QBs del siglo XXI. Como los Saints de Drew Brees, vuelcan su juega en el pase, y eso les hace ser más efectivos en general. 
 
 </details>
 
 <details>
-<summary>Top Teams: Passing & Rushing</summary>
+<summary>Top Teams: Passer Rating</summary>
 <br>
 
- ![top_pass_rush](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/top_pass_rush.png)
+ ![top_rat](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/top_rat.png)
 
 </details>
 
 <details>
-<summary>Worst Teams: Passing & Rushing</summary>
+<summary>Worst Teams: Passing Rating</summary>
 <br>
 
-![worst_pass_rush](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/worst_pass_rush.png)
+![worst_rat](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/worst_rat.png)
 
 </details>
+	
+Como se puede apreciar en las dos tablas anteriores, los mejores equipos tienen, de media, un passer rating mayor. Sin embargo, hay equipos del Bottom 10 que superan en rating (Tennessee Titans 103.88) a equipos del Top 10 (Baltimore Ravens 96.69). Podríamos pues decir que aunque el passer rating influye, no es determinante en el éxito de un equipo o, dicho de otro modo, más vale correr si no tienes buen juego de pase. 
 
 <a name="special"/>
 
