@@ -21,9 +21,10 @@ En este proyecto habremos de visualizar los datos cargados tras efectuar una ETL
 
 ### Restricciones:
 - Utilizar una de las tres herramientas de visualización mencionadas.
+- Practicar <em>storytelling</em>. 
 
 ### Dataset:
-- Un .csv con todas las estadísticas de juego de los equipos de la NFL entre 2010 y 2016.
+- nfl_football_team_stats.csv: un archivo .csv con todas las estadísticas de juego de los equipos de la NFL entre 2010 y 2016.
 
 ### Objetivo:
  
