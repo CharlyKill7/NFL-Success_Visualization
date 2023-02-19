@@ -241,7 +241,7 @@ Aunque podría haber concluido en la sección previa, voy a dibujar un balance d
 <br>
 <br>
 <br>
-										<em>"Offense sells tickets, but Defense wins championships."</em>
+					<em>"Offense sells tickets, but Defense wins championships."</em> Bear Bryant.
 	
 <br>
 <br>
