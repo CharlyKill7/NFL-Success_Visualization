@@ -133,7 +133,7 @@ Como se puede apreciar en las dos tablas anteriores, los mejores equipos tienen,
 
 ## Special Teams
 	
-El proceso de transformación por cada tabla fue el siguiente:
+Si el Ataque y la Defensa son la cara y la cruz de la moneda NFL, el canto sería sin duda lo que se conoce como "Special Teams". Es el equipo de patada, donde el <em>kicker</em> o el <em>punter</em> lanzan para anotar o alejar el balón, respectivamente. Un lanzamiento a palos para conseguir tres puntos es un Field Goal, mientras que la patada que pretende alejar el balón se conoce como Punt. 
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/spe_teams.png" />
 
@@ -142,6 +142,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
  ![fg](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg.png)
+	
+Como vemos en el "Pie Chart", el porcentaje de acierto del Field Goal es mayor cuando se gana, aunque la diferencia no parece significativa. Esto se confirma con la gráfica inferior, donde podemos apreciar que las curvas son similares para diferencias de anotación muy amplias. Un mayor % de acierto es recomendable pero no decisivo para la victoria.
 
 </details>
 
@@ -151,6 +153,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 
  [punt](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/punt.png)
 
+Con los punt sucede más o menos lo mismo, puesto que el número de intentos es similar entre victorias y derrotas, y las gráficas son prácticamente paralelas para niveles de puntuación muy dispar. 
+
 </details>
 
 <details>
@@ -158,6 +162,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
 [fg_teams](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg_teams.png)
+
+No obstante, en este último "Treemap" podemos observar (que no interactuar, para eso descargar y entrar en el archivo .pbix) que entre los equipos que más FGs anotan están la mayoría de conjuntos punteros de la liga, como los Patriots, los Seahawks o los Ravens. Es decir, tienen cierto peso específico en la victoria que sería un error desdeñar. 
 
 </details>	
 
