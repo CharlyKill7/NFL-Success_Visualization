@@ -36,23 +36,25 @@ Nuestro objetivo será presentar una serie de figuras gráficas que nos ayuden a
  
 ## Wins by Team
 
-En primer lugar, parece lógico preguntarnos: ¿qué es el éxito en la NFL? La respuesta, en cualquier deporte, sería la misma: la victoria. Por eso hemos decidido empezar adquiriendo una visión general de los equipos más existosos de la liga. Más adelante analizaremos las prácticas de cada conjunto en relación a su posición en esta primera gráfica.
+En primer lugar, parece lógico preguntarnos: ¿qué es el éxito en la NFL? La respuesta, para cualquier deporte, sería la misma: la victoria. Por ello, hemos decidido empezar adquiriendo una visión general de los equipos más existosos de la liga, para más adelante analizar las prácticas de cada conjunto en relación a su posición en esta primera gráfica.
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/wins.png" />
 
-Como podemos ver, para el periodo analizado hay un equipo que sinónimo de éxito: New England Patriots. Es posible que, de analizar únicamente sus estadísticas, no podamos precisar qué aspecto del juego se debe priorizar, puesto que en la mayoría resultaran punteros. Por eso, vamos a dividir en tres los 32 equipos del gráfico. 
+Como podemos ver, para el periodo analizado hay un equipo sinónimo de éxito: New England Patriots. Es posible que, de analizar únicamente sus estadísticas, no podamos precisar qué aspecto del juego se debe priorizar, puesto que en la mayoría resultarían punteros. Por eso, vamos a dividir en tres los 32 equipos del gráfico. 
 
 - Los Top Teams, los diez primeros, de New England Patriots a Kansas City Chiefs.
 - Los Mid Teams, los doce intermedios, de Cincinnati Bengals a Los Angeles/San Diego Chargers.
 - Los Worst Teams, los diez últimos, de Miami Dolphins a Cleveland Browns.
 
-En este análisis vamos a utilizar al primer y al último grupo, buscando diferencias significativas en sus patrones de juego.
+En este análisis vamos a utilizar el primer grupo y el último, buscando diferencias significativas en sus patrones de juego.
 
  <a name="pass_rush"/>
  
 ## Passing vs Rushing
 
-El proceso de transformación por cada tabla fue el siguiente:
+¿Pase o Carrera? Esa es la gran pregunta a la que se enfrenta un entrenador antes de cada jugada. En pocas palabras, pasar significa lanzar por aire, arriesgando más el balón con vistas a obtener un beneficio mucho mayor en cuanto a yardas. "Carrera", por el contrario, es una forma segura de avanzar desde atrás, aunque la recompensa suele ser menor. 
+
+En el siguiente dashboard podemos apreciar, de manera general, lo que voy a ir destripando por subsecciones.
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_vs_rush.png" />
 
@@ -61,6 +63,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
  ![pass](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/pass_scatter.png)
+	
+En este "scatter plot", o mapa de puntos, podemos apreciar que a mayor número de intentos de pase, mayor número de puntos en el marcador. A grandes rasgos, existe una correlación directa entre el número de intentos de pase y los puntos, salvo alguna excepción como Cleveland Browns. 
 
 </details>
 
@@ -69,6 +73,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
  ![rush](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/rush_scatter.png)
+	
+Por contra, en este otro mapa podemos observar que un mayor nº de jugadas de carrera no necesariamente se ve traducido en más puntos. Cabe destacar que, como ya intuimos, New England Patriots es líder en no importa qué tipo de jugada. Hay no obstante otros casos sumamente interesantes, como el de New Orleans Saints. Pasan de estar en el top 2 de intentos de pase a estar por debajo de la media de la liga en carrera, siendo terceros globales en anotación. Esto ya da una pista de por dónde van los tiros.
 
 </details>
 
@@ -78,10 +84,11 @@ El proceso de transformación por cada tabla fue el siguiente:
 
 ![top](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/top_pass_rush.png)
 ![bot](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/worst_pass_rush.png)
+	
+En efecto, estas dos tablas resultan esclarecedoras. Teniendo en cuenta sólo los partidos que terminaron en victoria, podemos apreciar que la distribución de jugadas es distinta para los equipos Top y los peores de la liga. Los mejores pasan más, mientras que los peores optan por la carrera como el vehículo principal de su victoria.
 
 </details>
 <br>
-
 
 <a name="qb"/>
 
