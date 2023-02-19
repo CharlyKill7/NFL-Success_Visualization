@@ -105,7 +105,7 @@ De acuerdo, parece más efectivo pasar que correr. Sin embargo, la probabilidad 
 
  ![qb_rat](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/qb_rat.png)
 	
-En este diagrama de barras vemos el "passer rating" medio por equipo, en función de si ganaron o no. Como ya aventuramos, parece que los mejores equipos de la liga están arriba en este gráfico, aunque hay excepciones que vale la pena mencionar. Baltimore Ravens, sexto equipo más exitoso del periodo estudiado, están entre los últimos en "passer rating". Pero, si echamos un vistazo a las tablas de la sección anterior, vemos que lo compensan con un número mayor de carreras, donde son más efectivos.
+En este diagrama de barras vemos el "passer rating" medio por equipo, en función de si ganaron o no. Como ya aventuramos, parece que los mejores equipos de la liga están arriba en este gráfico, aunque hay excepciones que vale la pena mencionar. Baltimore Ravens, sexto equipo más exitoso del periodo estudiado, se encuentra entre los últimos en "passer rating". Pero, si echamos un vistazo a las tablas de la sección anterior, vemos que lo compensan con un número mayor de carreras, donde son más efectivos.
 
 Otro caso interesante es el de Green Bay Packers, que supera con holgura a los mismísimos Patriots en este apartado. Esto se debe a la presencia de Aaron Rodgers, uno de los mejores QBs del siglo XXI. Como los Saints de Drew Brees, vuelcan su juega en el pase, y eso les hace ser más efectivos en general. 
 
@@ -135,7 +135,7 @@ Como se puede apreciar en las dos tablas anteriores, los mejores equipos tienen,
 
 ## Special Teams
 	
-Si el Ataque y la Defensa son la cara y la cruz de la moneda NFL, el canto sería sin duda lo que se conoce como "Special Teams". Es el equipo de patada, donde el <em>kicker</em> o el <em>punter</em> lanzan para anotar o alejar el balón, respectivamente. Un lanzamiento a palos para conseguir tres puntos es un Field Goal, mientras que la patada que pretende alejar el balón se conoce como Punt. 
+Si el Ataque y la Defensa son la cara y la cruz de la moneda NFL, el canto sería sin duda lo que se conoce como "Special Teams". Es el equipo de patada, donde el <em>kicker</em> o el <em>punter</em> patean para anotar o alejar el balón, respectivamente. Un lanzamiento a palos para conseguir tres puntos es un Field Goal, mientras que la patada que pretende alejar el balón se conoce como Punt. 
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/spe_teams.png" />
 
@@ -145,7 +145,7 @@ Si el Ataque y la Defensa son la cara y la cruz de la moneda NFL, el canto serí
 
  ![fg](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg.png)
 	
-Como vemos en el "Pie Chart", el porcentaje de acierto del Field Goal es mayor cuando se gana, aunque la diferencia no parece significativa. Esto se confirma con la gráfica inferior, donde podemos apreciar que las curvas son similares para diferencias de anotación muy amplias. Un mayor % de acierto es recomendable pero no decisivo para la victoria.
+Como vemos en el "Pie Chart", el porcentaje de acierto del Field Goal es mayor cuando se gana, aunque la diferencia no parece demasiado significativa. Esto se confirma con la gráfica inferior, donde podemos apreciar que las curvas son similares para diferencias de anotación muy amplias. Un mayor % de acierto es recomendable pero no decisivo para la victoria.
 
 </details>
 
@@ -238,7 +238,7 @@ Aunque podría haber concluido en la sección previa, voy a dibujar un balance d
 - La defensa y las grandes jugadas defensivas tienen una influencia decisiva en el resultado del partido. 
 	
 Como conclusión: 
-<strong>La receta de la victoria tiene varios ingredientes, pero los principales son el juego de pase y, sobre todo, una gran Defensa.</strong>
+<strong>La receta de la victoria tiene varios ingredientes, pero los principales son el juego de pase y, sobre todo, una gran defensa.</strong>
 	
 <br>
 <br>
