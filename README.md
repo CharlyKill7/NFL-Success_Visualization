@@ -129,6 +129,8 @@ Otro caso interesante es el de Green Bay Packers, que supera con holgura a los m
 	
 Como se puede apreciar en las dos tablas anteriores, los mejores equipos tienen, de media, un passer rating mayor. Sin embargo, hay equipos del Bottom 10 que superan en rating (Tennessee Titans 103.88) a equipos del Top 10 (Baltimore Ravens 96.69). Podríamos pues decir que aunque el passer rating influye, no es determinante en el éxito de un equipo o, dicho de otro modo, más vale correr si no tienes buen juego de pase. 
 
+<br>
+
 <a name="special"/>
 
 ## Special Teams
@@ -223,7 +225,7 @@ Aquí, sin embargo, nos encontramos con la primera estadística defensiva que pa
 
 </details>
 
-		
+<br>		
 <a name="conclusion"/>
 
 ## Conclusiones
@@ -235,7 +237,8 @@ Aunque podría haber concluido en la sección previa, voy a dibujar un balance d
 - Los equipos especiales, aunque merece la pena cuidarlos, no parecen tener tanto impacto directo en el resultado.
 - La defensa y las grandes jugadas defensivas tienen una influencia decisiva en el resultado del partido. 
 	
-<p>Como conclusión: <strong>La receta de la victoria tiene varios ingredientes, pero los principales son el juego de pase y, sobre todo, una gran Defensa.</strong>
+Como conclusión: 
+<strong>La receta de la victoria tiene varios ingredientes, pero los principales son el juego de pase y, sobre todo, una gran Defensa.</strong>
 	
 <br>
 <br>
