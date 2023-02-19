@@ -151,7 +151,7 @@ Como vemos en el "Pie Chart", el porcentaje de acierto del Field Goal es mayor c
 <summary>Punt Attempts</summary>
 <br>
 
- [punt](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/punt.png)
+ ![punt](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/punt.png)
 
 Con los punt sucede más o menos lo mismo, puesto que el número de intentos es similar entre victorias y derrotas, y las gráficas son prácticamente paralelas para niveles de puntuación muy dispar. 
 
@@ -161,7 +161,7 @@ Con los punt sucede más o menos lo mismo, puesto que el número de intentos es 
 <summary>Field Goals by Team</summary>
 <br>
 
-[fg_teams](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg_teams.png)
+![fg_teams](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/fg_teams.png)
 
 No obstante, en este último "Treemap" podemos observar (que no interactuar, para eso descargar y entrar en el archivo .pbix) que entre los equipos que más FGs anotan están la mayoría de conjuntos punteros de la liga, como los Patriots, los Seahawks o los Ravens. Es decir, tienen cierto peso específico en la victoria que sería un error desdeñar. 
 
@@ -173,15 +173,23 @@ No obstante, en este último "Treemap" podemos observar (que no interactuar, par
 
 ## Defense
 	
-El proceso de transformación por cada tabla fue el siguiente:
+En este apartado analizaremos, mediante la figura "Key Influencers" de PowerBI, las principales categorías estadísticas de la defensa para conocer su impacto en la victoria. Este es el aspecto genereal del gráfico:
 
 <img src="https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/key1.png" />
+	
+Las principales estadísticas son:
+- Interception: la defensa atrapa un pase lanzado por el quarterback rival y recupera la posesión. 
+- Sack: la defenesa logra placar al quarterback rival antes de que lance el balon. 
+- Safety: la defensa logra placar al ataque dentro de su propia zona de anotación, lo que se traduce en posesión y dos puntos extra. 
+- Tackles: los placajes, el pan de cada día de la defensa. Cada vez que se tira al portador del balón al suelo se consigue un <em>tackle</em>.
 
 <details>
 <summary>Interceptions</summary>
 <br>
 
  ![key1](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/key1.png)
+
+Cuando hay una intercepción (0.99 para ser exactos), la probabilidad de victoria se multiplica por 2,5 para el equipo que la consigue. A medida que aumenta el número, la victoria es cada vez más probable. 
 
 </details>
 
@@ -190,6 +198,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 <br>
 
  ![key2](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/key2.png)
+	
+Lo mismos sucede con los sacks, aunque no sean tan decisivos. Como vemos, la probabilidad de victoria es verdaderamente alta cuando la defensa consigue alcanzar al qb rival en cuatro o más ocasiones.  
 
 </details>
 
@@ -199,6 +209,8 @@ El proceso de transformación por cada tabla fue el siguiente:
 
  ![key3](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/key3.png)
 
+En cuanto a los safeties, más de lo mismo. Conseguir al menos uno significa más opciones de llevarte la victoria. Es importante mencionar que lograrlo es algo relativamente raro y, por tanto, es un factor psicológico a considerar, pues que te hagan un "safety" suele desmoralizar al equipo.
+
 </details>
 
 <details>
@@ -207,14 +219,26 @@ El proceso de transformación por cada tabla fue el siguiente:
 
  ![key4](https://github.com/CharlyKill7/NFL-Success_Visualization/blob/main/images/key4.png)
 
+Aquí, sin embargo, nos encontramos con la primera estadística defensiva que parece que, al aumentar, conlleva una menor probablidad de victoria. Esto es algo lógico, si entendemos que, cuanto más ataca el rival, más placajes tendrás que hacer. De hecho, el gráfico no deja dudas: cuantos menos placajes tengas que hacer por partido, más probable será ganarlo.
+
 </details>
 
 		
 <a name="conclusion"/>
 
 ## Conclusiones
+
+Aunque podría haber concluido en la sección previa, voy a dibujar un balance de lo analizado:
+
+- Generalmente, las jugadas de pase acercan más la victoria que las de carrera.
+- Particularmente, lo anterior puede caer en excepción si tienes un passer rating bajo y un buen juego de carrera.
+- Los equipos especiales, aunque merece la pena cuidarlos, no parecen tener tanto impacto directo en el resultado.
+- La defensa y las grandes jugadas defensivas tienen una influencia decisiva en el resultado del partido. 
 	
-<p><strong> Los árbitros tienden a buscar un final igualado, y por tanto benefician al equipo que va por debajo en el marcador.</strong>
+<p>Como conclusión: <strong>La receta de la victoria tiene varios ingredientes, pero los principales son el juego de pase y, sobre todo, una gran Defensa.</strong>
+	
+<br>
+										<em>"Offense sells tickets, but Defense wins championships."</em>
 	
 <br>
 <br>
